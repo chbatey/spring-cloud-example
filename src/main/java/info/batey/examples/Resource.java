@@ -16,7 +16,7 @@ public class Resource {
 
     @RequestMapping("/scary")
     public String callTheScaryDependency() {
-        LOGGER.info("I wonder which thread I am on!");
+        LOGGER.info("Resource later: I wonder which thread I am on!");
         return scaryDependency.getScaryString();
     }
 
