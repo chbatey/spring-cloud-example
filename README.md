@@ -21,7 +21,9 @@ To see a hystrix dash board go to:
 
 [Hystrix Dashboard](http://localhost:8080/hystrix/index.html)
 
-And enter the following URL: http://localhost:8080/hystrix.stream
+And enter the following URL: http://localhost:8080/hystrix.stream e.g
+
+<img src="https://raw.githubusercontent.com/chbatey/spring-cloud-example/master/hystrix-welcome.png" />
 
 You should see something like:
 
