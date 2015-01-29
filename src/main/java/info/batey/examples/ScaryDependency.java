@@ -14,7 +14,7 @@ public class ScaryDependency {
     
     @HystrixCommand(fallbackMethod = "safeString")
     public String getScaryString() {
-        LOGGER.info("Scary Dependency: I wonder which thread I am on! I assume it is a container thread :P");
+        LOGGER.info("Scary Dependency: I wonder which thread I am on! Tomcats? :P");
         if (System.currentTimeMillis() % 2 == 0) {
             return "Scary String";
         } else {

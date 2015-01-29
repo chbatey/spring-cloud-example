@@ -19,5 +19,4 @@ public class Resource {
         LOGGER.info("Resource later: I wonder which thread I am on!");
         return scaryDependency.getScaryString();
     }
-
 }
